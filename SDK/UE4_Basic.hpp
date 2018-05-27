@@ -268,8 +268,6 @@ struct FName
 
 	inline const char* GetName() const
 	{
-		if (ComparisonIndex < 0 || ComparisonIndex >= GetGlobalNames().Num())
-			return "";
 		return GetGlobalNames()[ComparisonIndex]->GetAnsiName();
 	};
 

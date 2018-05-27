@@ -8,8 +8,6 @@
 
 #include "UE4_Engine_classes.hpp"
 
-#pragma warning(disable:26495)
-
 namespace SDK
 {
 //---------------------------------------------------------------------------

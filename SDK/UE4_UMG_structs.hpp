@@ -7,13 +7,13 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_Slate_classes.hpp"
-#include "UE4_InputCore_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
 #include "UE4_SlateCore_classes.hpp"
-#include "UE4_Engine_classes.hpp"
 #include "UE4_MovieScene_classes.hpp"
+#include "UE4_InputCore_classes.hpp"
+#include "UE4_Engine_classes.hpp"
 #include "UE4_MovieSceneTracks_classes.hpp"
+#include "UE4_Slate_classes.hpp"
 
 namespace SDK
 {

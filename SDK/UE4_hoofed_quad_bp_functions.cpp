@@ -1,0 +1,113 @@
+// Unreal Engine 4 (4) SDK
+
+#ifdef _MSC_VER
+	#pragma pack(push, 0x8)
+#endif
+
+#include "UE4_hoofed_quad_bp_parameters.hpp"
+
+namespace SDK
+{
+//---------------------------------------------------------------------------
+//Functions
+//---------------------------------------------------------------------------
+
+// Function hoofed_quad_bp.hoofed_quad_bp_C.UserConstructionScript
+// (Event, Public, BlueprintCallable, BlueprintEvent)
+
+void Ahoofed_quad_bp_C::UserConstructionScript()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function hoofed_quad_bp.hoofed_quad_bp_C.UserConstructionScript");
+
+	Ahoofed_quad_bp_C_UserConstructionScript_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function hoofed_quad_bp.hoofed_quad_bp_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void Ahoofed_quad_bp_C::ReceiveBeginPlay()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function hoofed_quad_bp.hoofed_quad_bp_C.ReceiveBeginPlay");
+
+	Ahoofed_quad_bp_C_ReceiveBeginPlay_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function hoofed_quad_bp.hoofed_quad_bp_C.ReceiveTick
+// (Event, Public, BlueprintEvent)
+// Parameters:
+// float*                         DeltaSeconds                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void Ahoofed_quad_bp_C::ReceiveTick(float* DeltaSeconds)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function hoofed_quad_bp.hoofed_quad_bp_C.ReceiveTick");
+
+	Ahoofed_quad_bp_C_ReceiveTick_Params params;
+	params.DeltaSeconds = DeltaSeconds;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function hoofed_quad_bp.hoofed_quad_bp_C.SetLocoState
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// TEnumAsByte<Efauna_loco_state_enum>* NewState                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void Ahoofed_quad_bp_C::SetLocoState(TEnumAsByte<Efauna_loco_state_enum>* NewState)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function hoofed_quad_bp.hoofed_quad_bp_C.SetLocoState");
+
+	Ahoofed_quad_bp_C_SetLocoState_Params params;
+	params.NewState = NewState;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function hoofed_quad_bp.hoofed_quad_bp_C.ExecuteUbergraph_hoofed_quad_bp
+// ()
+// Parameters:
+// int                            EntryPoint                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void Ahoofed_quad_bp_C::ExecuteUbergraph_hoofed_quad_bp(int EntryPoint)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function hoofed_quad_bp.hoofed_quad_bp_C.ExecuteUbergraph_hoofed_quad_bp");
+
+	Ahoofed_quad_bp_C_ExecuteUbergraph_hoofed_quad_bp_Params params;
+	params.EntryPoint = EntryPoint;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+}
+
+#ifdef _MSC_VER
+	#pragma pack(pop)
+#endif
