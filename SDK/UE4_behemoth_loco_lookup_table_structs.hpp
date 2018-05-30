@@ -8,8 +8,8 @@
 
 #include "UE4_Basic.hpp"
 #include "UE4_object_lookup_table_struct_classes.hpp"
-#include "UE4_enum_lookup_table_classes.hpp"
 #include "UE4_behemoth_loco_type_classes.hpp"
+#include "UE4_enum_lookup_table_classes.hpp"
 #include "UE4_behemoth_loco_info_classes.hpp"
 
 namespace SDK

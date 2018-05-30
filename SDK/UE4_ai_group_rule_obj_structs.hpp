@@ -7,8 +7,8 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_ai_agent_group_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
+#include "UE4_ai_agent_group_classes.hpp"
 
 namespace SDK
 {

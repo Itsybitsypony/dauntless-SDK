@@ -8,8 +8,8 @@
 
 #include "UE4_Basic.hpp"
 #include "UE4_w_journal_entry_base_classes.hpp"
-#include "UE4_Engine_classes.hpp"
 #include "UE4_SlateCore_classes.hpp"
+#include "UE4_Engine_classes.hpp"
 #include "UE4_UMG_classes.hpp"
 
 namespace SDK

@@ -179,10 +179,10 @@ struct ABP_PlayerCharacter_C_GetWeaponAbilityDamageRowOverride_Params
 	struct FName                                       WeaponAbilityDamageRowOverride;                           // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
-// Function BP_PlayerCharacter.BP_PlayerCharacter_C.isinlobby
-struct ABP_PlayerCharacter_C_isinlobby_Params
+// Function BP_PlayerCharacter.BP_PlayerCharacter_C.IsInLobby
+struct ABP_PlayerCharacter_C_IsInLobby_Params
 {
-	bool                                               isinlobby;                                                // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+	bool                                               IsInLobby;                                                // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function BP_PlayerCharacter.BP_PlayerCharacter_C.IsInCity
@@ -545,7 +545,7 @@ struct ABP_PlayerCharacter_C_OnAboutToDieBP_Params
 // Function BP_PlayerCharacter.BP_PlayerCharacter_C.Is_in_lobby?
 struct ABP_PlayerCharacter_C_Is_in_lobby__Params
 {
-	bool                                               isinlobby;                                                // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+	bool                                               IsInLobby;                                                // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function BP_PlayerCharacter.BP_PlayerCharacter_C.UpdateIsPlayerSupported

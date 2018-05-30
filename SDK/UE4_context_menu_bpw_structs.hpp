@@ -8,12 +8,12 @@
 
 #include "UE4_Basic.hpp"
 #include "UE4_Slate_classes.hpp"
-#include "UE4_Archon_classes.hpp"
-#include "UE4_context_menu_action_classes.hpp"
-#include "UE4_Engine_classes.hpp"
-#include "UE4_SlateCore_classes.hpp"
-#include "UE4_UMG_classes.hpp"
 #include "UE4_InputCore_classes.hpp"
+#include "UE4_Archon_classes.hpp"
+#include "UE4_SlateCore_classes.hpp"
+#include "UE4_Engine_classes.hpp"
+#include "UE4_context_menu_action_classes.hpp"
+#include "UE4_UMG_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
 
 namespace SDK

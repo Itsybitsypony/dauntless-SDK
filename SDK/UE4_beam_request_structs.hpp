@@ -7,11 +7,11 @@
 #endif
 
 #include "UE4_Basic.hpp"
+#include "UE4_speed_or_duration_info_classes.hpp"
 #include "UE4_relative_or_world_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
-#include "UE4_speed_or_duration_info_classes.hpp"
-#include "UE4_beam_type_classes.hpp"
 #include "UE4_GameplayTags_classes.hpp"
+#include "UE4_beam_type_classes.hpp"
 #include "UE4_damage_guid_type_classes.hpp"
 #include "UE4_beam_collision_behavior_classes.hpp"
 

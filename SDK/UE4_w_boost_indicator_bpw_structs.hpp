@@ -7,8 +7,8 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_Boost_struct_classes.hpp"
 #include "UE4_UMG_classes.hpp"
+#include "UE4_Boost_struct_classes.hpp"
 #include "UE4_Engine_classes.hpp"
 #include "UE4_EBoost_Type_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"

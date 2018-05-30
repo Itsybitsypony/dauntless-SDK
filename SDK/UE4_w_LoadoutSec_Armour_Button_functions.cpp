@@ -473,15 +473,15 @@ void Uw_LoadoutSec_Armour_Button_C::Lookup_Armour_Power(const class FString& Ite
 // Function w_LoadoutSec_Armour_Button.w_LoadoutSec_Armour_Button_C.Get Equipped Loadout Armour Valueby Type
 // (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// EArmorType                     Armour_Type                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// EArmorType                     armour_type                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // float                          ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
 
-float Uw_LoadoutSec_Armour_Button_C::Get_Equipped_Loadout_Armour_Valueby_Type(EArmorType Armour_Type)
+float Uw_LoadoutSec_Armour_Button_C::Get_Equipped_Loadout_Armour_Valueby_Type(EArmorType armour_type)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function w_LoadoutSec_Armour_Button.w_LoadoutSec_Armour_Button_C.Get Equipped Loadout Armour Valueby Type");
 
 	Uw_LoadoutSec_Armour_Button_C_Get_Equipped_Loadout_Armour_Valueby_Type_Params params;
-	params.Armour_Type = Armour_Type;
+	params.armour_type = armour_type;
 
 	auto flags = fn->FunctionFlags;
 

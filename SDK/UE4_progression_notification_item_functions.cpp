@@ -57,15 +57,15 @@ struct FLinearColor Uprogression_notification_item_C::GetShadowColor()
 // Function progression_notification_item.progression_notification_item_C.GetTransitionColor
 // (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// struct FLinearColor            Base_Color                     (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
+// struct FLinearColor            BASE_COLOR                     (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
 // struct FLinearColor            TransitionColor                (Parm, OutParm, IsPlainOldData)
 
-void Uprogression_notification_item_C::GetTransitionColor(const struct FLinearColor& Base_Color, struct FLinearColor* TransitionColor)
+void Uprogression_notification_item_C::GetTransitionColor(const struct FLinearColor& BASE_COLOR, struct FLinearColor* TransitionColor)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function progression_notification_item.progression_notification_item_C.GetTransitionColor");
 
 	Uprogression_notification_item_C_GetTransitionColor_Params params;
-	params.Base_Color = Base_Color;
+	params.BASE_COLOR = BASE_COLOR;
 
 	auto flags = fn->FunctionFlags;
 

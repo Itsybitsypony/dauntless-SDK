@@ -8,10 +8,10 @@
 
 #include "UE4_Basic.hpp"
 #include "UE4_coordination_message_type_classes.hpp"
-#include "UE4_agent_allocation_type_classes.hpp"
-#include "UE4_task_assignment_strategy_classes.hpp"
 #include "UE4_message_restrictions_classes.hpp"
+#include "UE4_agent_allocation_type_classes.hpp"
 #include "UE4_task_exclusivity_classes.hpp"
+#include "UE4_task_assignment_strategy_classes.hpp"
 #include "UE4_message_handling_type_classes.hpp"
 
 namespace SDK

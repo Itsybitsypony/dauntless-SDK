@@ -8,10 +8,10 @@
 
 #include "UE4_Basic.hpp"
 #include "UE4_ai_group_rule_obj_classes.hpp"
-#include "UE4_coordination_message_classes.hpp"
-#include "UE4_Engine_classes.hpp"
-#include "UE4_CoreUObject_classes.hpp"
 #include "UE4_ai_agent_group_classes.hpp"
+#include "UE4_Engine_classes.hpp"
+#include "UE4_coordination_message_classes.hpp"
+#include "UE4_CoreUObject_classes.hpp"
 
 namespace SDK
 {

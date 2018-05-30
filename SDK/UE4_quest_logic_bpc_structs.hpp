@@ -8,8 +8,8 @@
 
 #include "UE4_Basic.hpp"
 #include "UE4_Engine_classes.hpp"
-#include "UE4_CoreUObject_classes.hpp"
 #include "UE4_quest_button_input_types_enum_classes.hpp"
+#include "UE4_CoreUObject_classes.hpp"
 
 namespace SDK
 {

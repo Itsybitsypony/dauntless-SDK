@@ -7,8 +7,8 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_CoreUObject_classes.hpp"
 #include "UE4_EquipmentVendor_classes.hpp"
+#include "UE4_CoreUObject_classes.hpp"
 
 namespace SDK
 {

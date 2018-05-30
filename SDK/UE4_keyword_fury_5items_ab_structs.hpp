@@ -7,9 +7,9 @@
 #endif
 
 #include "UE4_Basic.hpp"
+#include "UE4_GameplayAbilities_classes.hpp"
 #include "UE4_keyword_fury_4items_ab_classes.hpp"
 #include "UE4_Engine_classes.hpp"
-#include "UE4_GameplayAbilities_classes.hpp"
 
 namespace SDK
 {

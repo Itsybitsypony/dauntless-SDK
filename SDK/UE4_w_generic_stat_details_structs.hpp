@@ -7,12 +7,12 @@
 #endif
 
 #include "UE4_Basic.hpp"
+#include "UE4_loadout_stat_info_classes.hpp"
 #include "UE4_UMG_classes.hpp"
+#include "UE4_SlateCore_classes.hpp"
 #include "UE4_Engine_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
 #include "UE4_LoadoutStat_Type_struct_classes.hpp"
-#include "UE4_SlateCore_classes.hpp"
-#include "UE4_loadout_stat_info_classes.hpp"
 
 namespace SDK
 {

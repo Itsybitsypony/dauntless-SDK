@@ -284,7 +284,7 @@ struct UMenu_CharacterStageRoot_bpw_C_BndEvt__Loadout_K2Node_ComponentBoundEvent
 // Function Menu_CharacterStageRoot_bpw.Menu_CharacterStageRoot_bpw_C.BndEvt__Style_K2Node_ComponentBoundEvent_50_UpdatePlayerTitleOnOtherMenus__DelegateSignature
 struct UMenu_CharacterStageRoot_bpw_C_BndEvt__Style_K2Node_ComponentBoundEvent_50_UpdatePlayerTitleOnOtherMenus__DelegateSignature_Params
 {
-	class FString                                      PlayerTitle;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
+	class FString                                      PlayerTItle;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
 };
 
 // Function Menu_CharacterStageRoot_bpw.Menu_CharacterStageRoot_bpw_C.Construct
@@ -382,7 +382,7 @@ struct UMenu_CharacterStageRoot_bpw_C_CloseCharacterStage__DelegateSignature_Par
 // Function Menu_CharacterStageRoot_bpw.Menu_CharacterStageRoot_bpw_C.UpdatePlayerTitle__DelegateSignature
 struct UMenu_CharacterStageRoot_bpw_C_UpdatePlayerTitle__DelegateSignature_Params
 {
-	struct FText                                       PlayerTitle;                                              // (BlueprintVisible, BlueprintReadOnly, Parm)
+	struct FText                                       PlayerTItle;                                              // (BlueprintVisible, BlueprintReadOnly, Parm)
 };
 
 // Function Menu_CharacterStageRoot_bpw.Menu_CharacterStageRoot_bpw_C.CloseVanity__DelegateSignature

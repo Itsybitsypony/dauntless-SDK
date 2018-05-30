@@ -7,14 +7,14 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_inventory_custom_filter_wrapper_classes.hpp"
 #include "UE4_Slate_classes.hpp"
+#include "UE4_InputCore_classes.hpp"
 #include "UE4_Archon_classes.hpp"
-#include "UE4_Engine_classes.hpp"
 #include "UE4_SlateCore_classes.hpp"
+#include "UE4_Engine_classes.hpp"
+#include "UE4_inventory_custom_filter_wrapper_classes.hpp"
 #include "UE4_UMG_classes.hpp"
 #include "UE4_inventory_custom_filter_classes.hpp"
-#include "UE4_InputCore_classes.hpp"
 
 namespace SDK
 {

@@ -54,14 +54,14 @@ void Uplayer_controller_telemetry_component_C::On_Set_Dye_Colour(class UArchonIn
 }
 
 
-// Function player_controller_telemetry_component.player_controller_telemetry_component_C.MatchmakingStarted
+// Function player_controller_telemetry_component.player_controller_telemetry_component_C.MatchMakingStarted
 // (BlueprintCallable, BlueprintEvent)
 
-void Uplayer_controller_telemetry_component_C::MatchmakingStarted()
+void Uplayer_controller_telemetry_component_C::MatchMakingStarted()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function player_controller_telemetry_component.player_controller_telemetry_component_C.MatchmakingStarted");
+	static auto fn = UObject::FindObject<UFunction>("Function player_controller_telemetry_component.player_controller_telemetry_component_C.MatchMakingStarted");
 
-	Uplayer_controller_telemetry_component_C_MatchmakingStarted_Params params;
+	Uplayer_controller_telemetry_component_C_MatchMakingStarted_Params params;
 
 	auto flags = fn->FunctionFlags;
 

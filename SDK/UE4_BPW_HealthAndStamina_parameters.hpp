@@ -79,8 +79,8 @@ struct UBPW_HealthAndStamina_C_GetText_1_Params
 	struct FText                                       ReturnValue;                                              // (Parm, OutParm, ReturnParm)
 };
 
-// Function BPW_HealthAndStamina.BPW_HealthAndStamina_C.Get_BleedOutBar_Percent_1
-struct UBPW_HealthAndStamina_C_Get_BleedOutBar_Percent_1_Params
+// Function BPW_HealthAndStamina.BPW_HealthAndStamina_C.Get_BleedoutBar_Percent_1
+struct UBPW_HealthAndStamina_C_Get_BleedoutBar_Percent_1_Params
 {
 	float                                              ReturnValue;                                              // (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
 };

@@ -15,9 +15,9 @@ namespace SDK
 // Function BPI_CombatGameMode.BPI_CombatGameMode_C.GetDangerLevel
 // (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// float                          Danger                         (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+// float                          danger                         (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
-void UBPI_CombatGameMode_C::GetDangerLevel(float* Danger)
+void UBPI_CombatGameMode_C::GetDangerLevel(float* danger)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BPI_CombatGameMode.BPI_CombatGameMode_C.GetDangerLevel");
 
@@ -29,8 +29,8 @@ void UBPI_CombatGameMode_C::GetDangerLevel(float* Danger)
 
 	fn->FunctionFlags = flags;
 
-	if (Danger != nullptr)
-		*Danger = params.Danger;
+	if (danger != nullptr)
+		*danger = params.danger;
 }
 
 
@@ -177,14 +177,14 @@ void UBPI_CombatGameMode_C::SetDangerSystemOverride(bool TurnOn_)
 // Function BPI_CombatGameMode.BPI_CombatGameMode_C.setDanger
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// float                          Danger                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// float                          danger                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void UBPI_CombatGameMode_C::setDanger(float Danger)
+void UBPI_CombatGameMode_C::setDanger(float danger)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BPI_CombatGameMode.BPI_CombatGameMode_C.setDanger");
 
 	UBPI_CombatGameMode_C_setDanger_Params params;
-	params.Danger = Danger;
+	params.danger = danger;
 
 	auto flags = fn->FunctionFlags;
 

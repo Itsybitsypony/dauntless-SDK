@@ -7,9 +7,9 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_progression_award_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
 #include "UE4_Archon_classes.hpp"
+#include "UE4_progression_award_classes.hpp"
 
 namespace SDK
 {

@@ -7,12 +7,12 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_behemoth_states_enum_classes.hpp"
 #include "UE4_part_requirement_classes.hpp"
 #include "UE4_simplified_blackboard_key_data_classes.hpp"
-#include "UE4_blackboard_comparable_key_type_classes.hpp"
 #include "UE4_behemoth_req_state_type_classes.hpp"
+#include "UE4_behemoth_states_enum_classes.hpp"
 #include "UE4_Enum_CompareOperators_classes.hpp"
+#include "UE4_blackboard_comparable_key_type_classes.hpp"
 #include "UE4_require_or_exclude_classes.hpp"
 
 namespace SDK

@@ -52,7 +52,7 @@ public:
 	void GetWeaponAbilityDamageRowOverride(struct FName* WeaponAbilityDamageRowOverride);
 	void ClearWeaponAbilityDamageRowOverride();
 	void SetWeaponAbilityDamageRowOverride(const struct FName& WeaponAbilityDamageRowOverride);
-	void isinlobby(bool* isinlobby);
+	void IsInLobby(bool* IsInLobby);
 	void IsInCity(bool* IsInCity);
 	void EnableLocoTransitions();
 	void DisableLocoTransitions();

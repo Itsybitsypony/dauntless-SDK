@@ -8,8 +8,8 @@
 
 #include "UE4_Basic.hpp"
 #include "UE4_ui_combo_classes.hpp"
-#include "UE4_weapon_type_enum_classes.hpp"
 #include "UE4_ui_comboArray_classes.hpp"
+#include "UE4_weapon_type_enum_classes.hpp"
 
 namespace SDK
 {

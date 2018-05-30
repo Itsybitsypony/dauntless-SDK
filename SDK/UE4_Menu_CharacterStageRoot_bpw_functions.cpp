@@ -902,14 +902,14 @@ void UMenu_CharacterStageRoot_bpw_C::BndEvt__Loadout_K2Node_ComponentBoundEvent_
 // Function Menu_CharacterStageRoot_bpw.Menu_CharacterStageRoot_bpw_C.BndEvt__Style_K2Node_ComponentBoundEvent_50_UpdatePlayerTitleOnOtherMenus__DelegateSignature
 // (BlueprintEvent)
 // Parameters:
-// class FString                  PlayerTitle                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
+// class FString                  PlayerTItle                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
 
-void UMenu_CharacterStageRoot_bpw_C::BndEvt__Style_K2Node_ComponentBoundEvent_50_UpdatePlayerTitleOnOtherMenus__DelegateSignature(const class FString& PlayerTitle)
+void UMenu_CharacterStageRoot_bpw_C::BndEvt__Style_K2Node_ComponentBoundEvent_50_UpdatePlayerTitleOnOtherMenus__DelegateSignature(const class FString& PlayerTItle)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function Menu_CharacterStageRoot_bpw.Menu_CharacterStageRoot_bpw_C.BndEvt__Style_K2Node_ComponentBoundEvent_50_UpdatePlayerTitleOnOtherMenus__DelegateSignature");
 
 	UMenu_CharacterStageRoot_bpw_C_BndEvt__Style_K2Node_ComponentBoundEvent_50_UpdatePlayerTitleOnOtherMenus__DelegateSignature_Params params;
-	params.PlayerTitle = PlayerTitle;
+	params.PlayerTItle = PlayerTItle;
 
 	auto flags = fn->FunctionFlags;
 
@@ -1232,14 +1232,14 @@ void UMenu_CharacterStageRoot_bpw_C::CloseCharacterStage__DelegateSignature(TEnu
 // Function Menu_CharacterStageRoot_bpw.Menu_CharacterStageRoot_bpw_C.UpdatePlayerTitle__DelegateSignature
 // (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// struct FText                   PlayerTitle                    (BlueprintVisible, BlueprintReadOnly, Parm)
+// struct FText                   PlayerTItle                    (BlueprintVisible, BlueprintReadOnly, Parm)
 
-void UMenu_CharacterStageRoot_bpw_C::UpdatePlayerTitle__DelegateSignature(const struct FText& PlayerTitle)
+void UMenu_CharacterStageRoot_bpw_C::UpdatePlayerTitle__DelegateSignature(const struct FText& PlayerTItle)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function Menu_CharacterStageRoot_bpw.Menu_CharacterStageRoot_bpw_C.UpdatePlayerTitle__DelegateSignature");
 
 	UMenu_CharacterStageRoot_bpw_C_UpdatePlayerTitle__DelegateSignature_Params params;
-	params.PlayerTitle = PlayerTitle;
+	params.PlayerTItle = PlayerTItle;
 
 	auto flags = fn->FunctionFlags;
 

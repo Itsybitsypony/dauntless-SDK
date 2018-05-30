@@ -40,7 +40,7 @@ public:
 
 
 	void Set_Tier_Label(int Tier);
-	void Set_Item_Links(EArmorType Armour_Type, TEnumAsByte<EProgressionLink> Progress, TEnumAsByte<EProgressionLink> NextTier);
+	void Set_Item_Links(EArmorType armour_type, TEnumAsByte<EProgressionLink> Progress, TEnumAsByte<EProgressionLink> NextTier);
 	void Get_Inventory(class AArchonInventory** Inventory);
 	void Set_Item(const class FString& ItemID, int Tier, TEnumAsByte<EProgressionLink> Progress, TEnumAsByte<EProgressionLink> NextTier);
 	void Construct();

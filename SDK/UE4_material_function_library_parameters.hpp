@@ -40,7 +40,7 @@ struct Umaterial_function_library_C_GetArmourTypeFromSkeletalMesh_Params
 {
 	class USkeletalMesh*                               Skeletal_Mesh;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	EArmorType                                         Armour_Type;                                              // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+	EArmorType                                         armour_type;                                              // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function material_function_library.material_function_library_C.HideSkinUnderArmourBase
@@ -88,7 +88,7 @@ struct Umaterial_function_library_C_GetArmourCutMaskFromItemID_Params
 // Function material_function_library.material_function_library_C.SetHelmetVisibility
 struct Umaterial_function_library_C_SetHelmetVisibility_Params
 {
-	EArmorType                                         Armour_Type;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	EArmorType                                         armour_type;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	TScriptInterface<class Uplayer_interface_C>        player_interface;                                         // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	class UTexture2D*                                  CutMask;                                                  // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	class Aarmour_part_base_bp_C*                      Armour_Part;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)

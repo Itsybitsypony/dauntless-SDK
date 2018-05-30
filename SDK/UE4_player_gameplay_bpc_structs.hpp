@@ -7,10 +7,10 @@
 #endif
 
 #include "UE4_Basic.hpp"
+#include "UE4_beam_request_classes.hpp"
 #include "UE4_Engine_classes.hpp"
 #include "UE4_timed_gameplay_event_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
-#include "UE4_beam_request_classes.hpp"
 
 namespace SDK
 {

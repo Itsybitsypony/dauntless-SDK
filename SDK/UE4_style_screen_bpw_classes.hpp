@@ -80,7 +80,7 @@ public:
 	void Paperdoll_BannerEmote__DelegateSignature(const class FString& BannerEmote);
 	void Paperdoll_PlayMoth__DelegateSignature(const class FString& ItemID);
 	void Paperdoll_PlayArrival__DelegateSignature(const class FString& ArrivalID);
-	void UpdatePlayerTitleOnOtherMenus__DelegateSignature(const class FString& PlayerTitle);
+	void UpdatePlayerTitleOnOtherMenus__DelegateSignature(const class FString& PlayerTItle);
 	void ScreenModeChange__DelegateSignature(TEnumAsByte<EScreenMode_VanityMenu> Mode);
 	void Paperdoll_ResetEmote__DelegateSignature();
 	void Paperdoll_PlayEmote__DelegateSignature(const class FString& emoteID);

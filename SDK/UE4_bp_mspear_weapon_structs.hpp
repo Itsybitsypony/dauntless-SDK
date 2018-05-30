@@ -7,13 +7,13 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_Engine_classes.hpp"
+#include "UE4_GameplayAbilities_classes.hpp"
 #include "UE4_BP_BaseArchonWeapon_classes.hpp"
+#include "UE4_Engine_classes.hpp"
 #include "UE4_Archon_classes.hpp"
-#include "UE4_CoreUObject_classes.hpp"
 #include "UE4_mspear_tunables_str_classes.hpp"
 #include "UE4_GameplayTags_classes.hpp"
-#include "UE4_GameplayAbilities_classes.hpp"
+#include "UE4_CoreUObject_classes.hpp"
 
 namespace SDK
 {

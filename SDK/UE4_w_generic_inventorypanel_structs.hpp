@@ -7,9 +7,9 @@
 #endif
 
 #include "UE4_Basic.hpp"
+#include "UE4_Archon_classes.hpp"
 #include "UE4_w_base_inventorypanel_classes.hpp"
 #include "UE4_Engine_classes.hpp"
-#include "UE4_Archon_classes.hpp"
 
 namespace SDK
 {

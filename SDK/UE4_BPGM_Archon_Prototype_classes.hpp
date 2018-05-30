@@ -174,7 +174,7 @@ public:
 	void IsIntroCinematicEnabled(bool* Enabled);
 	bool DidSetupIntroCinematic();
 	void GetGameModeType(TEnumAsByte<Egame_mode_type>* GameModeType);
-	void GetDangerLevel(float* Danger);
+	void GetDangerLevel(float* danger);
 	void GetCurrentMissionInfo(struct FArchonLobbyMissionInfo* MissionInfo);
 	void DebugGetRawExpectedPlayerCountVariable(int* RawExpectedPlayerCount);
 	void IsDangerMaxed(bool* DangerMaxed);
@@ -183,7 +183,7 @@ public:
 	void Assign_Free_Player_Color_Index(int* OutColorIndex);
 	void Debug_Get_Player_Color(int InColorIndex, struct FLinearColor* Linear_Color);
 	void Get_Remaining_Player_Rescues(int* Remaining_Player_Rescue_Count);
-	void MatchEndedForPlayer(class AArchonPlayerController* Player, bool Success, float Duration, class AArchonBehemoth* Behemoth, int CeremonyDuration, float Danger, TEnumAsByte<EndOfMatch_GameType> EndofMatchMode, const class FString& MatchmakerHuntID, const struct Fplayer_highlight_info& MOTH_Data, float TeamScore, TArray<class FString>* BehemothRewards, TArray<struct Fbadge_infos>* BadgeInfos, TArray<struct Fplayer_score_info>* PlayerScores);
+	void MatchEndedForPlayer(class AArchonPlayerController* Player, bool Success, float Duration, class AArchonBehemoth* Behemoth, int CeremonyDuration, float danger, TEnumAsByte<EndOfMatch_GameType> EndofMatchMode, const class FString& MatchmakerHuntID, const struct Fplayer_highlight_info& MOTH_Data, float TeamScore, TArray<class FString>* BehemothRewards, TArray<struct Fbadge_infos>* BadgeInfos, TArray<struct Fplayer_score_info>* PlayerScores);
 	void AutoCollectShinies();
 	void Moth_TeamShotSetup();
 	void EndOfMatchRankCalculations(struct Fplayer_highlight_info* MoTHData, TArray<struct Fbadge_infos>* BadgeInfos, TArray<struct Fplayer_score_info>* PlayerIndividualScores, float* TeamScore);
@@ -243,7 +243,7 @@ public:
 	void BehemothRequested(const struct FName& Behemoth);
 	void RegisterStartOfCombat();
 	void K2_OnLogout(class AController** ExitingController);
-	void setDanger(float Danger);
+	void setDanger(float danger);
 	void SetDangerSystemOverride(bool TurnOn_);
 	void PlayIntroCinematic();
 	void SpawnPlayerStartingBanner(class APawn* Player);

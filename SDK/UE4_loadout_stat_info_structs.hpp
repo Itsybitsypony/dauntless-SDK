@@ -7,8 +7,8 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_stat_value_type_classes.hpp"
 #include "UE4_LoadoutStatTypes_classes.hpp"
+#include "UE4_stat_value_type_classes.hpp"
 
 namespace SDK
 {

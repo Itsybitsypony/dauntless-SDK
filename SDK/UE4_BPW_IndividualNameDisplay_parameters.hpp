@@ -20,8 +20,8 @@ struct UBPW_IndividualNameDisplay_C_Get_RedBar_ColorAndOpacity_1_Params
 	struct FLinearColor                                ReturnValue;                                              // (Parm, OutParm, ReturnParm, IsPlainOldData)
 };
 
-// Function BPW_IndividualNameDisplay.BPW_IndividualNameDisplay_C.Get_BleedOutBar_Percent_1
-struct UBPW_IndividualNameDisplay_C_Get_BleedOutBar_Percent_1_Params
+// Function BPW_IndividualNameDisplay.BPW_IndividualNameDisplay_C.Get_BleedoutBar_Percent_1
+struct UBPW_IndividualNameDisplay_C_Get_BleedoutBar_Percent_1_Params
 {
 	float                                              ReturnValue;                                              // (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
 };

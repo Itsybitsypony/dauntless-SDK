@@ -23,7 +23,7 @@ public:
 	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0A50(0x0008) (Transient, DuplicateTransient)
 	class UParticleSystemComponent*                    p_super_mode;                                             // 0x0A58(0x0008) (BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	class UMaterialInstanceDynamic*                    WeaponDynamicMaterial;                                    // 0x0A60(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	struct FLinearColor                                Base_Color;                                               // 0x0A68(0x0010) (Edit, BlueprintVisible, DisableEditOnInstance, IsPlainOldData)
+	struct FLinearColor                                BASE_COLOR;                                               // 0x0A68(0x0010) (Edit, BlueprintVisible, DisableEditOnInstance, IsPlainOldData)
 	struct FLinearColor                                DAMAGE_WINDOW_COLOR;                                      // 0x0A78(0x0010) (Edit, BlueprintVisible, DisableEditOnInstance, IsPlainOldData)
 	float                                              BASE_CHARGE_GAIN_PER_X_STRIKE;                            // 0x0A88(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	float                                              BASE_CHARGE_DECAY_RATE;                                   // 0x0A8C(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)

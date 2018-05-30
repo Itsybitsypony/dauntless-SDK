@@ -7,8 +7,8 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_base_lookup_data_wrapper_classes.hpp"
 #include "UE4_stagger_lookup_table_entry_classes.hpp"
+#include "UE4_base_lookup_data_wrapper_classes.hpp"
 
 namespace SDK
 {

@@ -7,9 +7,9 @@
 #endif
 
 #include "UE4_Basic.hpp"
+#include "UE4_CoreUObject_classes.hpp"
 #include "UE4_BPW_GameHUD_classes.hpp"
 #include "UE4_Engine_classes.hpp"
-#include "UE4_CoreUObject_classes.hpp"
 #include "UE4_UMG_classes.hpp"
 
 namespace SDK

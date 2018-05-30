@@ -9,11 +9,11 @@
 #include "UE4_Basic.hpp"
 #include "UE4_Engine_classes.hpp"
 #include "UE4_Archon_classes.hpp"
-#include "UE4_cell_damage_modification_classes.hpp"
 #include "UE4_cell_effect_display_type_classes.hpp"
 #include "UE4_cell_slot_info_classes.hpp"
 #include "UE4_inventory_or_catalog_classes.hpp"
 #include "UE4_cell_effect_details_classes.hpp"
+#include "UE4_cell_damage_modification_classes.hpp"
 
 namespace SDK
 {

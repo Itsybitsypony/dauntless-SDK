@@ -9,8 +9,8 @@
 #include "UE4_Basic.hpp"
 #include "UE4_behemoth_statecondition_type_classes.hpp"
 #include "UE4_behemoth_states_enum_classes.hpp"
-#include "UE4_blackboard_comparison_classes.hpp"
 #include "UE4_behemoth_state_event_classes.hpp"
+#include "UE4_blackboard_comparison_classes.hpp"
 
 namespace SDK
 {

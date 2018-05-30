@@ -180,7 +180,7 @@ struct Ustyle_screen_bpw_C_Paperdoll_PlayArrival__DelegateSignature_Params
 // Function style_screen_bpw.style_screen_bpw_C.UpdatePlayerTitleOnOtherMenus__DelegateSignature
 struct Ustyle_screen_bpw_C_UpdatePlayerTitleOnOtherMenus__DelegateSignature_Params
 {
-	class FString                                      PlayerTitle;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
+	class FString                                      PlayerTItle;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
 };
 
 // Function style_screen_bpw.style_screen_bpw_C.ScreenModeChange__DelegateSignature

@@ -83,7 +83,7 @@ public:
 	void Send_Normal_Chat(const class FString& MsgBody);
 	void Send_Command(const class FString& Command);
 	bool Is_Pagebreak(struct FBPChatClientMessage* InMessage);
-	void Scroll_To_End_Next_Frame();
+	void Scroll_to_End_Next_Frame();
 	void OnPaint(struct FPaintContext* Context);
 	struct FEventReply OnFocusReceived(struct FGeometry* MyGeometry, struct FFocusEvent* InFocusEvent);
 	void Set_Guild_Chat_Visual();
@@ -103,7 +103,7 @@ public:
 	struct FEventReply OnMouseWheel(struct FGeometry* MyGeometry, struct FPointerEvent* MouseEvent);
 	bool Should_Show_Message(struct FBPChatClientMessage* InMessage);
 	void Set_Normal_Mode_Label();
-	void Get_Player_Context(bool* Is_In_City, bool* isinlobby);
+	void Get_Player_Context(bool* Is_In_City, bool* IsInLobby);
 	void Set_Whisper_Chat_Mode(const class FString& Player_Name);
 	void Set_Party_Chat_Mode();
 	void Escape_to_Normal_Mode(bool* Did_Change_Mode);

@@ -7,10 +7,10 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_Engine_classes.hpp"
 #include "UE4_w_social_menu_tab_body_bpw_classes.hpp"
-#include "UE4_Archon_classes.hpp"
 #include "UE4_SlateCore_classes.hpp"
+#include "UE4_Engine_classes.hpp"
+#include "UE4_Archon_classes.hpp"
 
 namespace SDK
 {

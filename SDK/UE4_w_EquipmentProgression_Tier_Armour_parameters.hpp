@@ -23,7 +23,7 @@ struct Uw_EquipmentProgression_Tier_Armour_C_Set_Tier_Label_Params
 // Function w_EquipmentProgression_Tier_Armour.w_EquipmentProgression_Tier_Armour_C.Set Item Links
 struct Uw_EquipmentProgression_Tier_Armour_C_Set_Item_Links_Params
 {
-	EArmorType                                         Armour_Type;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	EArmorType                                         armour_type;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	TEnumAsByte<EProgressionLink>                      Progress;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	TEnumAsByte<EProgressionLink>                      NextTier;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };

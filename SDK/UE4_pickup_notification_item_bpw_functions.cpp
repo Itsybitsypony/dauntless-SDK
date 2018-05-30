@@ -57,15 +57,15 @@ struct FLinearColor Upickup_notification_item_bpw_C::GetShadowColor()
 // Function pickup_notification_item_bpw.pickup_notification_item_bpw_C.GetTransitionColor
 // (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
-// struct FLinearColor            Base_Color                     (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
+// struct FLinearColor            BASE_COLOR                     (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
 // struct FLinearColor            TransitionColor                (Parm, OutParm, IsPlainOldData)
 
-void Upickup_notification_item_bpw_C::GetTransitionColor(const struct FLinearColor& Base_Color, struct FLinearColor* TransitionColor)
+void Upickup_notification_item_bpw_C::GetTransitionColor(const struct FLinearColor& BASE_COLOR, struct FLinearColor* TransitionColor)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function pickup_notification_item_bpw.pickup_notification_item_bpw_C.GetTransitionColor");
 
 	Upickup_notification_item_bpw_C_GetTransitionColor_Params params;
-	params.Base_Color = Base_Color;
+	params.BASE_COLOR = BASE_COLOR;
 
 	auto flags = fn->FunctionFlags;
 

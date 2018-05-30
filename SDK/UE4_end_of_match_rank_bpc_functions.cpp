@@ -70,10 +70,10 @@ void Uend_of_match_rank_bpc_C::CalculateMatchRanks(float TotalDangerAccrued, flo
 // int                            TotalBleedouts                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // float                          TotalDamageTaken               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // int                            NumPlayers                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// float                          Danger                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// float                          danger                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // float                          Score                          (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
-void Uend_of_match_rank_bpc_C::CalculateTeamAndSoloRank(int TotalBleedouts, float TotalDamageTaken, int NumPlayers, float Danger, float* Score)
+void Uend_of_match_rank_bpc_C::CalculateTeamAndSoloRank(int TotalBleedouts, float TotalDamageTaken, int NumPlayers, float danger, float* Score)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function end_of_match_rank_bpc.end_of_match_rank_bpc_C.CalculateTeamAndSoloRank");
 
@@ -81,7 +81,7 @@ void Uend_of_match_rank_bpc_C::CalculateTeamAndSoloRank(int TotalBleedouts, floa
 	params.TotalBleedouts = TotalBleedouts;
 	params.TotalDamageTaken = TotalDamageTaken;
 	params.NumPlayers = NumPlayers;
-	params.Danger = Danger;
+	params.danger = danger;
 
 	auto flags = fn->FunctionFlags;
 

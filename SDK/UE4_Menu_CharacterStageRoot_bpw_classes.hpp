@@ -109,7 +109,7 @@ public:
 	void BndEvt__Loadout_K2Node_ComponentBoundEvent_807_BackToMainStage_From__DelegateSignature(TEnumAsByte<ELoadout_ScreenMode> ScreenMode);
 	void BndEvt__Loadout_K2Node_ComponentBoundEvent_880_LoadoutCategorySelected_Consumables__DelegateSignature();
 	void BndEvt__Loadout_K2Node_ComponentBoundEvent_1_UpdatePaperdoll_Transmog__DelegateSignature(const class FString& InstanceId, const class FString& TransmogId);
-	void BndEvt__Style_K2Node_ComponentBoundEvent_50_UpdatePlayerTitleOnOtherMenus__DelegateSignature(const class FString& PlayerTitle);
+	void BndEvt__Style_K2Node_ComponentBoundEvent_50_UpdatePlayerTitleOnOtherMenus__DelegateSignature(const class FString& PlayerTItle);
 	void Construct();
 	void OpenLoadout();
 	void Open_Style();
@@ -127,7 +127,7 @@ public:
 	void BndEvt__inventory_screen_bpw_K2Node_ComponentBoundEvent_178_OnInventoryClosed__DelegateSignature(TEnumAsByte<Eui_character_screen_mode> Previous_Screen);
 	void ExecuteUbergraph_Menu_CharacterStageRoot_bpw(int EntryPoint);
 	void CloseCharacterStage__DelegateSignature(TEnumAsByte<Eui_character_screen_mode> Previous_Screen);
-	void UpdatePlayerTitle__DelegateSignature(const struct FText& PlayerTitle);
+	void UpdatePlayerTitle__DelegateSignature(const struct FText& PlayerTItle);
 	void CloseVanity__DelegateSignature();
 };
 

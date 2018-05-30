@@ -122,7 +122,7 @@ public:
 	void EquipNewItem(class UArchonInventoryItem* NewItem);
 	void UpdateCharacterStats_Armour(class UArchonInventoryItem* NewItemEquipped);
 	void Lookup_Armour_Power(const class FString& ItemID, float* GlobalResistance);
-	float Get_Equipped_Loadout_Armour_Valueby_Type(EArmorType Armour_Type);
+	float Get_Equipped_Loadout_Armour_Valueby_Type(EArmorType armour_type);
 	void UpdateArmour_MainValue(class UArchonInventoryItem* Item);
 	struct FEventReply OnFocusReceived(struct FGeometry* MyGeometry, struct FFocusEvent* InFocusEvent);
 	void Construct();

@@ -43,7 +43,7 @@ public:
 
 	struct FText Get_DescriptionTextField_Text_1();
 	struct FLinearColor GetShadowColor();
-	void GetTransitionColor(const struct FLinearColor& Base_Color, struct FLinearColor* TransitionColor);
+	void GetTransitionColor(const struct FLinearColor& BASE_COLOR, struct FLinearColor* TransitionColor);
 	struct FSlateColor GetBackgroundColor();
 	void UpdateTextOpacity(class UTextBlock* Text_Field);
 	struct FLinearColor GetBorderColor();

@@ -229,14 +229,14 @@ bool Uw_chat_bpw_C::Is_Pagebreak(struct FBPChatClientMessage* InMessage)
 }
 
 
-// Function w_chat_bpw.w_chat_bpw_C.Scroll To End Next Frame
+// Function w_chat_bpw.w_chat_bpw_C.Scroll to End Next Frame
 // (Public, BlueprintCallable, BlueprintEvent)
 
-void Uw_chat_bpw_C::Scroll_To_End_Next_Frame()
+void Uw_chat_bpw_C::Scroll_to_End_Next_Frame()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function w_chat_bpw.w_chat_bpw_C.Scroll To End Next Frame");
+	static auto fn = UObject::FindObject<UFunction>("Function w_chat_bpw.w_chat_bpw_C.Scroll to End Next Frame");
 
-	Uw_chat_bpw_C_Scroll_To_End_Next_Frame_Params params;
+	Uw_chat_bpw_C_Scroll_to_End_Next_Frame_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -642,9 +642,9 @@ void Uw_chat_bpw_C::Set_Normal_Mode_Label()
 // (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
 // bool                           Is_In_City                     (Parm, OutParm, ZeroConstructor, IsPlainOldData)
-// bool                           isinlobby                      (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+// bool                           IsInLobby                      (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
-void Uw_chat_bpw_C::Get_Player_Context(bool* Is_In_City, bool* isinlobby)
+void Uw_chat_bpw_C::Get_Player_Context(bool* Is_In_City, bool* IsInLobby)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function w_chat_bpw.w_chat_bpw_C.Get Player Context");
 
@@ -658,8 +658,8 @@ void Uw_chat_bpw_C::Get_Player_Context(bool* Is_In_City, bool* isinlobby)
 
 	if (Is_In_City != nullptr)
 		*Is_In_City = params.Is_In_City;
-	if (isinlobby != nullptr)
-		*isinlobby = params.isinlobby;
+	if (IsInLobby != nullptr)
+		*IsInLobby = params.IsInLobby;
 }
 
 

@@ -472,7 +472,7 @@ public:
 	void IsHelmVisible(bool* Visible);
 	void GetFacialHairSlotComponent(class USkeletalMeshComponent** Facial_Hair_Slot);
 	void GetWeaponAbilityDamageRowOverride(struct FName* WeaponAbilityDamageRowOverride);
-	void isinlobby(bool* isinlobby);
+	void IsInLobby(bool* IsInLobby);
 	void IsInCity(bool* IsInCity);
 	void GetLastDamagedMonsterPart(class UMonsterPartComponent** MonsterPart);
 	void GetLastDamagedActor(class AActor** LastDamagedActor);
@@ -530,7 +530,7 @@ public:
 	bool CanExecuteCombo();
 	bool IsCancelToDodgeNotifyActive_();
 	void OnAboutToDieBP(bool* PreventDeath);
-	void Is_in_lobby_(bool* isinlobby);
+	void Is_in_lobby_(bool* IsInLobby);
 	void UpdateIsPlayerSupported();
 	EArchonAttackActionKeyModifier GetAttackModifier();
 	void PreHitHandleLifestealAndWeaponCharge(const struct FDamageEventData& DamageEventData, class AActor* DamagedActor);

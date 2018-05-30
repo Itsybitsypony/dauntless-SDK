@@ -339,7 +339,7 @@ struct UUserWidgetFunctions_C_Get_Armour_Type_Params
 {
 	class FString                                      ItemID;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
 	class UObject*                                     __WorldContext;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	EArmorType                                         Armour_Type;                                              // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+	EArmorType                                         armour_type;                                              // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function UserWidgetFunctions.UserWidgetFunctions_C.Is Item Armour

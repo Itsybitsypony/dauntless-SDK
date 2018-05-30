@@ -35,16 +35,16 @@ void Uw_EquipmentProgression_Tier_Armour_C::Set_Tier_Label(int Tier)
 // Function w_EquipmentProgression_Tier_Armour.w_EquipmentProgression_Tier_Armour_C.Set Item Links
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// EArmorType                     Armour_Type                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// EArmorType                     armour_type                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // TEnumAsByte<EProgressionLink>  Progress                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // TEnumAsByte<EProgressionLink>  NextTier                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void Uw_EquipmentProgression_Tier_Armour_C::Set_Item_Links(EArmorType Armour_Type, TEnumAsByte<EProgressionLink> Progress, TEnumAsByte<EProgressionLink> NextTier)
+void Uw_EquipmentProgression_Tier_Armour_C::Set_Item_Links(EArmorType armour_type, TEnumAsByte<EProgressionLink> Progress, TEnumAsByte<EProgressionLink> NextTier)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function w_EquipmentProgression_Tier_Armour.w_EquipmentProgression_Tier_Armour_C.Set Item Links");
 
 	Uw_EquipmentProgression_Tier_Armour_C_Set_Item_Links_Params params;
-	params.Armour_Type = Armour_Type;
+	params.armour_type = armour_type;
 	params.Progress = Progress;
 	params.NextTier = NextTier;
 

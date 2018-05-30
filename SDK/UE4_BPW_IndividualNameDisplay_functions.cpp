@@ -33,16 +33,16 @@ struct FLinearColor UBPW_IndividualNameDisplay_C::Get_RedBar_ColorAndOpacity_1()
 }
 
 
-// Function BPW_IndividualNameDisplay.BPW_IndividualNameDisplay_C.Get_BleedOutBar_Percent_1
+// Function BPW_IndividualNameDisplay.BPW_IndividualNameDisplay_C.Get_BleedoutBar_Percent_1
 // (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
 // float                          ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
 
-float UBPW_IndividualNameDisplay_C::Get_BleedOutBar_Percent_1()
+float UBPW_IndividualNameDisplay_C::Get_BleedoutBar_Percent_1()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BPW_IndividualNameDisplay.BPW_IndividualNameDisplay_C.Get_BleedOutBar_Percent_1");
+	static auto fn = UObject::FindObject<UFunction>("Function BPW_IndividualNameDisplay.BPW_IndividualNameDisplay_C.Get_BleedoutBar_Percent_1");
 
-	UBPW_IndividualNameDisplay_C_Get_BleedOutBar_Percent_1_Params params;
+	UBPW_IndividualNameDisplay_C_Get_BleedoutBar_Percent_1_Params params;
 
 	auto flags = fn->FunctionFlags;
 

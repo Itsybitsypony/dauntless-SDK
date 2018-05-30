@@ -588,16 +588,16 @@ void ABP_PlayerCharacter_C::GetWeaponAbilityDamageRowOverride(struct FName* Weap
 }
 
 
-// Function BP_PlayerCharacter.BP_PlayerCharacter_C.isinlobby
+// Function BP_PlayerCharacter.BP_PlayerCharacter_C.IsInLobby
 // (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                           isinlobby                      (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+// bool                           IsInLobby                      (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
-void ABP_PlayerCharacter_C::isinlobby(bool* isinlobby)
+void ABP_PlayerCharacter_C::IsInLobby(bool* IsInLobby)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_PlayerCharacter.BP_PlayerCharacter_C.isinlobby");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_PlayerCharacter.BP_PlayerCharacter_C.IsInLobby");
 
-	ABP_PlayerCharacter_C_isinlobby_Params params;
+	ABP_PlayerCharacter_C_IsInLobby_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -605,8 +605,8 @@ void ABP_PlayerCharacter_C::isinlobby(bool* isinlobby)
 
 	fn->FunctionFlags = flags;
 
-	if (isinlobby != nullptr)
-		*isinlobby = params.isinlobby;
+	if (IsInLobby != nullptr)
+		*IsInLobby = params.IsInLobby;
 }
 
 
@@ -1894,9 +1894,9 @@ void ABP_PlayerCharacter_C::OnAboutToDieBP(bool* PreventDeath)
 // Function BP_PlayerCharacter.BP_PlayerCharacter_C.Is_in_lobby?
 // (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                           isinlobby                      (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+// bool                           IsInLobby                      (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
-void ABP_PlayerCharacter_C::Is_in_lobby_(bool* isinlobby)
+void ABP_PlayerCharacter_C::Is_in_lobby_(bool* IsInLobby)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BP_PlayerCharacter.BP_PlayerCharacter_C.Is_in_lobby?");
 
@@ -1908,8 +1908,8 @@ void ABP_PlayerCharacter_C::Is_in_lobby_(bool* isinlobby)
 
 	fn->FunctionFlags = flags;
 
-	if (isinlobby != nullptr)
-		*isinlobby = params.isinlobby;
+	if (IsInLobby != nullptr)
+		*IsInLobby = params.IsInLobby;
 }
 
 

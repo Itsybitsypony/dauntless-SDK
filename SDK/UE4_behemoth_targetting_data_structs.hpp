@@ -7,8 +7,8 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_arc_targetting_data_classes.hpp"
 #include "UE4_behemoth_targetting_type_classes.hpp"
+#include "UE4_arc_targetting_data_classes.hpp"
 #include "UE4_targetting_data_strategy_classes.hpp"
 
 namespace SDK

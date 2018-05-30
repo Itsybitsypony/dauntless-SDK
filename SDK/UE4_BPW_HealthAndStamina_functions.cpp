@@ -239,16 +239,16 @@ struct FText UBPW_HealthAndStamina_C::GetText_1()
 }
 
 
-// Function BPW_HealthAndStamina.BPW_HealthAndStamina_C.Get_BleedOutBar_Percent_1
+// Function BPW_HealthAndStamina.BPW_HealthAndStamina_C.Get_BleedoutBar_Percent_1
 // (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
 // float                          ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
 
-float UBPW_HealthAndStamina_C::Get_BleedOutBar_Percent_1()
+float UBPW_HealthAndStamina_C::Get_BleedoutBar_Percent_1()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BPW_HealthAndStamina.BPW_HealthAndStamina_C.Get_BleedOutBar_Percent_1");
+	static auto fn = UObject::FindObject<UFunction>("Function BPW_HealthAndStamina.BPW_HealthAndStamina_C.Get_BleedoutBar_Percent_1");
 
-	UBPW_HealthAndStamina_C_Get_BleedOutBar_Percent_1_Params params;
+	UBPW_HealthAndStamina_C_Get_BleedoutBar_Percent_1_Params params;
 
 	auto flags = fn->FunctionFlags;
 

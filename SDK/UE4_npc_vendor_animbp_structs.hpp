@@ -8,8 +8,8 @@
 
 #include "UE4_Basic.hpp"
 #include "UE4_Engine_classes.hpp"
-#include "UE4_CoreUObject_classes.hpp"
 #include "UE4_AkAudio_classes.hpp"
+#include "UE4_CoreUObject_classes.hpp"
 #include "UE4_AnimGraphRuntime_classes.hpp"
 #include "UE4_ImmediatePhysics_classes.hpp"
 

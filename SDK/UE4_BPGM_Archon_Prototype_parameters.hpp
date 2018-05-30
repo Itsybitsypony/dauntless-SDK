@@ -47,7 +47,7 @@ struct ABPGM_Archon_Prototype_C_GetGameModeType_Params
 // Function BPGM_Archon_Prototype.BPGM_Archon_Prototype_C.GetDangerLevel
 struct ABPGM_Archon_Prototype_C_GetDangerLevel_Params
 {
-	float                                              Danger;                                                   // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+	float                                              danger;                                                   // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function BPGM_Archon_Prototype.BPGM_Archon_Prototype_C.GetCurrentMissionInfo
@@ -107,7 +107,7 @@ struct ABPGM_Archon_Prototype_C_MatchEndedForPlayer_Params
 	float                                              Duration;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	class AArchonBehemoth*                             Behemoth;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	int                                                CeremonyDuration;                                         // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	float                                              Danger;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	float                                              danger;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	TEnumAsByte<EndOfMatch_GameType>                   EndofMatchMode;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	class FString                                      MatchmakerHuntID;                                         // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
 	TArray<class FString>                              BehemothRewards;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm)
@@ -464,7 +464,7 @@ struct ABPGM_Archon_Prototype_C_K2_OnLogout_Params
 // Function BPGM_Archon_Prototype.BPGM_Archon_Prototype_C.setDanger
 struct ABPGM_Archon_Prototype_C_setDanger_Params
 {
-	float                                              Danger;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	float                                              danger;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function BPGM_Archon_Prototype.BPGM_Archon_Prototype_C.SetDangerSystemOverride

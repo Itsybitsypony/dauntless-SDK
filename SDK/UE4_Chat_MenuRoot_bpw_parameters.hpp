@@ -38,8 +38,8 @@ struct UChat_MenuRoot_bpw_C_Set_Whisper_Reply_Player_Name_Params
 	struct FBPChatClientMessage                        InMessage;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
 };
 
-// Function Chat_MenuRoot_bpw.Chat_MenuRoot_bpw_C.Scroll To End Next Frame
-struct UChat_MenuRoot_bpw_C_Scroll_To_End_Next_Frame_Params
+// Function Chat_MenuRoot_bpw.Chat_MenuRoot_bpw_C.Scroll to End Next Frame
+struct UChat_MenuRoot_bpw_C_Scroll_to_End_Next_Frame_Params
 {
 };
 
@@ -60,7 +60,7 @@ struct UChat_MenuRoot_bpw_C_Is_Chat_System_Ready_Params
 struct UChat_MenuRoot_bpw_C_Get_Player_Context_Params
 {
 	bool                                               Is_In_City;                                               // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
-	bool                                               isinlobby;                                                // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+	bool                                               IsInLobby;                                                // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function Chat_MenuRoot_bpw.Chat_MenuRoot_bpw_C.Get Party Chat Channel

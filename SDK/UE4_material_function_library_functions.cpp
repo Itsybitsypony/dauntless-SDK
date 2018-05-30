@@ -81,9 +81,9 @@ void Umaterial_function_library_C::STATIC_ReplaceAndReturnAllMeshMaterials(class
 // Parameters:
 // class USkeletalMesh*           Skeletal_Mesh                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // class UObject*                 __WorldContext                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// EArmorType                     Armour_Type                    (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+// EArmorType                     armour_type                    (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
-void Umaterial_function_library_C::STATIC_GetArmourTypeFromSkeletalMesh(class USkeletalMesh* Skeletal_Mesh, class UObject* __WorldContext, EArmorType* Armour_Type)
+void Umaterial_function_library_C::STATIC_GetArmourTypeFromSkeletalMesh(class USkeletalMesh* Skeletal_Mesh, class UObject* __WorldContext, EArmorType* armour_type)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function material_function_library.material_function_library_C.GetArmourTypeFromSkeletalMesh");
 
@@ -97,8 +97,8 @@ void Umaterial_function_library_C::STATIC_GetArmourTypeFromSkeletalMesh(class US
 
 	fn->FunctionFlags = flags;
 
-	if (Armour_Type != nullptr)
-		*Armour_Type = params.Armour_Type;
+	if (armour_type != nullptr)
+		*armour_type = params.armour_type;
 }
 
 
@@ -239,19 +239,19 @@ void Umaterial_function_library_C::STATIC_GetArmourCutMaskFromItemID(const class
 // Function material_function_library.material_function_library_C.SetHelmetVisibility
 // (Static, Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// EArmorType                     Armour_Type                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// EArmorType                     armour_type                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // TScriptInterface<class Uplayer_interface_C> player_interface               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // class UTexture2D*              CutMask                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // class Aarmour_part_base_bp_C*  Armour_Part                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // bool                           isPaperDoll                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // class UObject*                 __WorldContext                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void Umaterial_function_library_C::STATIC_SetHelmetVisibility(EArmorType Armour_Type, const TScriptInterface<class Uplayer_interface_C>& player_interface, class UTexture2D* CutMask, class Aarmour_part_base_bp_C* Armour_Part, bool isPaperDoll, class UObject* __WorldContext)
+void Umaterial_function_library_C::STATIC_SetHelmetVisibility(EArmorType armour_type, const TScriptInterface<class Uplayer_interface_C>& player_interface, class UTexture2D* CutMask, class Aarmour_part_base_bp_C* Armour_Part, bool isPaperDoll, class UObject* __WorldContext)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function material_function_library.material_function_library_C.SetHelmetVisibility");
 
 	Umaterial_function_library_C_SetHelmetVisibility_Params params;
-	params.Armour_Type = Armour_Type;
+	params.armour_type = armour_type;
 	params.player_interface = player_interface;
 	params.CutMask = CutMask;
 	params.Armour_Part = Armour_Part;

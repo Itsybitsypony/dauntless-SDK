@@ -7,10 +7,10 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_player_combat_base_animbp_classes.hpp"
 #include "UE4_Engine_classes.hpp"
-#include "UE4_AkAudio_classes.hpp"
+#include "UE4_player_combat_base_animbp_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
+#include "UE4_AkAudio_classes.hpp"
 
 namespace SDK
 {

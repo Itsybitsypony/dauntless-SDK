@@ -9,9 +9,9 @@
 #include "UE4_Basic.hpp"
 #include "UE4_CoreUObject_classes.hpp"
 #include "UE4_w_context_menu_action_classes.hpp"
+#include "UE4_SlateCore_classes.hpp"
 #include "UE4_Engine_classes.hpp"
 #include "UE4_Archon_classes.hpp"
-#include "UE4_SlateCore_classes.hpp"
 
 namespace SDK
 {

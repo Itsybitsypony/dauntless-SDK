@@ -45,7 +45,7 @@ public:
 
 	void CalculateBadges(TArray<struct Fbadge_infos>* BadgeInfos, TArray<struct Fplayer_highlight_info>* PlayerHighlightInfos);
 	void CalculateMatchRanks(float TotalDangerAccrued, float* TeamScore, TArray<struct Fplayer_score_info>* PlayerIndividualScores);
-	void CalculateTeamAndSoloRank(int TotalBleedouts, float TotalDamageTaken, int NumPlayers, float Danger, float* Score);
+	void CalculateTeamAndSoloRank(int TotalBleedouts, float TotalDamageTaken, int NumPlayers, float danger, float* Score);
 	void CalculateRankForPlayer(class AArchonPlayerState* PlayerState, float TotalDamageFromEveryone, int ValidPlayerCount, float* Score, TEnumAsByte<Erankings_enum>* Ranking);
 };
 

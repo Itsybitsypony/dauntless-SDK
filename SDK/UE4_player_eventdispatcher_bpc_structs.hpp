@@ -9,8 +9,8 @@
 #include "UE4_Basic.hpp"
 #include "UE4_Engine_classes.hpp"
 #include "UE4_Archon_classes.hpp"
-#include "UE4_GameplayTags_classes.hpp"
 #include "UE4_postmit_damage_summary_classes.hpp"
+#include "UE4_GameplayTags_classes.hpp"
 
 namespace SDK
 {

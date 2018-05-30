@@ -27,7 +27,7 @@ public:
 	bool                                               ShowHelper;                                               // 0x03B8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               PredictivePathTestPassed;                                 // 0x03B9(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	unsigned char                                      UnknownData00[0x6];                                       // 0x03BA(0x0006) MISSED OFFSET
-	struct FName                                       attack;                                                   // 0x03C0(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
+	struct FName                                       Attack;                                                   // 0x03C0(0x0008) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	class ABP_BehemothAction_C*                        Action;                                                   // 0x03C8(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, IsPlainOldData)
 	TArray<struct FStruct_ActionHitArea>               HitAreas;                                                 // 0x03D0(0x0010) (Edit, BlueprintVisible, ZeroConstructor)
 	TArray<class UPrimitiveComponent*>                 HitAreaComps;                                             // 0x03E0(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance)

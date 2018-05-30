@@ -29,7 +29,7 @@ struct Uprogression_notification_item_C_GetShadowColor_Params
 // Function progression_notification_item.progression_notification_item_C.GetTransitionColor
 struct Uprogression_notification_item_C_GetTransitionColor_Params
 {
-	struct FLinearColor                                Base_Color;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
+	struct FLinearColor                                BASE_COLOR;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
 	struct FLinearColor                                TransitionColor;                                          // (Parm, OutParm, IsPlainOldData)
 };
 

@@ -1258,7 +1258,7 @@ void Aplayer_controller_bp_C::ResetWeaponUI()
 // bool                           Success                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // float                          Duration                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // int                            EoM_Timer                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// float                          Danger                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// float                          danger                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // float                          BehemothPower                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // TEnumAsByte<EndOfMatch_GameType> EndofMatchMode                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // class AArchonBehemoth*         Behemoth_01                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
@@ -1268,7 +1268,7 @@ void Aplayer_controller_bp_C::ResetWeaponUI()
 // float                          TeamScore                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // struct Fplayer_score_wrapper   PlayerScores                   (BlueprintVisible, BlueprintReadOnly, Parm)
 
-void Aplayer_controller_bp_C::EndMission(bool Success, float Duration, int EoM_Timer, float Danger, float BehemothPower, TEnumAsByte<EndOfMatch_GameType> EndofMatchMode, class AArchonBehemoth* Behemoth_01, class AArchonBehemoth* Behemoth_02, const struct Fbadge_wrapper_thx_unreal& BadgeInfoWrapper, const struct Fplayer_highlight_info& MoTHData, float TeamScore, const struct Fplayer_score_wrapper& PlayerScores)
+void Aplayer_controller_bp_C::EndMission(bool Success, float Duration, int EoM_Timer, float danger, float BehemothPower, TEnumAsByte<EndOfMatch_GameType> EndofMatchMode, class AArchonBehemoth* Behemoth_01, class AArchonBehemoth* Behemoth_02, const struct Fbadge_wrapper_thx_unreal& BadgeInfoWrapper, const struct Fplayer_highlight_info& MoTHData, float TeamScore, const struct Fplayer_score_wrapper& PlayerScores)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function player_controller_bp.player_controller_bp_C.EndMission");
 
@@ -1276,7 +1276,7 @@ void Aplayer_controller_bp_C::EndMission(bool Success, float Duration, int EoM_T
 	params.Success = Success;
 	params.Duration = Duration;
 	params.EoM_Timer = EoM_Timer;
-	params.Danger = Danger;
+	params.danger = danger;
 	params.BehemothPower = BehemothPower;
 	params.EndofMatchMode = EndofMatchMode;
 	params.Behemoth_01 = Behemoth_01;

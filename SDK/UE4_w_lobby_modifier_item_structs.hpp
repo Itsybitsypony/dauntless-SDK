@@ -8,8 +8,8 @@
 
 #include "UE4_Basic.hpp"
 #include "UE4_UMG_classes.hpp"
-#include "UE4_hunt_modifier_info_classes.hpp"
 #include "UE4_Engine_classes.hpp"
+#include "UE4_hunt_modifier_info_classes.hpp"
 
 namespace SDK
 {

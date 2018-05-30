@@ -37,7 +37,7 @@ public:
 	unsigned char                                      UnknownData03[0x3];                                       // 0x0A95(0x0003) MISSED OFFSET
 	class UTimelineComponent*                          ChargeMultOne;                                            // 0x0A98(0x0008) (BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	class UMaterialInstanceDynamic*                    WeaponDynamicMaterial;                                    // 0x0AA0(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	struct FLinearColor                                Base_Color;                                               // 0x0AA8(0x0010) (Edit, BlueprintVisible, DisableEditOnInstance, IsPlainOldData)
+	struct FLinearColor                                BASE_COLOR;                                               // 0x0AA8(0x0010) (Edit, BlueprintVisible, DisableEditOnInstance, IsPlainOldData)
 	struct FLinearColor                                DAMAGE_WINDOW_COLOR;                                      // 0x0AB8(0x0010) (Edit, BlueprintVisible, DisableEditOnInstance, IsPlainOldData)
 	TArray<struct FStruct_GA_ParticleTrailSystems>     Weapon_Trail_Types;                                       // 0x0AC8(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance)
 	int                                                Current_Charge_Level;                                     // 0x0AD8(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)

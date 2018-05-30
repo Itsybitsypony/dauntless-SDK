@@ -7,8 +7,8 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_SlateCore_classes.hpp"
 #include "UE4_BPW_FloatingButton_classes.hpp"
+#include "UE4_SlateCore_classes.hpp"
 #include "UE4_Engine_classes.hpp"
 
 namespace SDK

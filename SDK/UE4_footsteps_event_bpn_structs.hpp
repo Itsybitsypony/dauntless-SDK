@@ -7,11 +7,11 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_debris_vfx_intensity_emitter_struct_classes.hpp"
+#include "UE4_Enum_FootstepSockets_classes.hpp"
 #include "UE4_Engine_classes.hpp"
 #include "UE4_debris_vfx_struct_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
-#include "UE4_Enum_FootstepSockets_classes.hpp"
+#include "UE4_debris_vfx_intensity_emitter_struct_classes.hpp"
 
 namespace SDK
 {

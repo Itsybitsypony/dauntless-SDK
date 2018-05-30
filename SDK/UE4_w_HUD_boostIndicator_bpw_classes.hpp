@@ -38,7 +38,7 @@ public:
 	struct FText                                       PlayerName;                                               // 0x0338(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 	bool                                               IsLeader;                                                 // 0x0350(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	unsigned char                                      UnknownData01[0x7];                                       // 0x0351(0x0007) MISSED OFFSET
-	struct FText                                       PlayerTitle;                                              // 0x0358(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
+	struct FText                                       PlayerTItle;                                              // 0x0358(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 	bool                                               EmptyTitle;                                               // 0x0370(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData02[0x7];                                       // 0x0371(0x0007) MISSED OFFSET
 	struct FScriptMulticastDelegate                    Clicked;                                                  // 0x0378(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, BlueprintAssignable)

@@ -9,8 +9,8 @@
 #include "UE4_Basic.hpp"
 #include "UE4_GameplayAbilities_classes.hpp"
 #include "UE4_Engine_classes.hpp"
-#include "UE4_Struct_TagToHitEffects_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
+#include "UE4_Struct_TagToHitEffects_classes.hpp"
 
 namespace SDK
 {

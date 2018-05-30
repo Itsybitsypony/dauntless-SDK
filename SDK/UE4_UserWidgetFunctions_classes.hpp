@@ -64,7 +64,7 @@ public:
 	bool STATIC_Is_Item_Weapon(const class FString& ItemID, class UObject* __WorldContext);
 	EWeaponType STATIC_Get_Weapon_Type(const class FString& ItemID, class UObject* __WorldContext);
 	TEnumAsByte<EquipmentVendor> STATIC_Get_Vendor_Item_Type(const class FString& ItemID, class UObject* __WorldContext);
-	void STATIC_Get_Armour_Type(const class FString& ItemID, class UObject* __WorldContext, EArmorType* Armour_Type);
+	void STATIC_Get_Armour_Type(const class FString& ItemID, class UObject* __WorldContext, EArmorType* armour_type);
 	bool STATIC_Is_Item_Armour(const class FString& ItemID, class UObject* __WorldContext);
 	void STATIC_Setup_Input_Swap(class APlayerController* Player_Controller, class UObject* __WorldContext, struct FScriptDelegate* Swap_Event, bool* Using_Gamepad);
 	void STATIC_Get_Popup_Layer(class UObject* __WorldContext, int* ZOrder);

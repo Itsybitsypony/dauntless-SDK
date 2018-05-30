@@ -33,7 +33,7 @@ public:
 
 	void ReceiveTick(float* DeltaSeconds);
 	void On_Set_Dye_Colour(class UArchonInventoryItem_Armour* Armour, const struct FDyeVariant& NewDyeConfiguration);
-	void MatchmakingStarted();
+	void MatchMakingStarted();
 	void MatchmakingFailed();
 	void MatchmakingCanceled();
 	void MatchmakingSuccess();

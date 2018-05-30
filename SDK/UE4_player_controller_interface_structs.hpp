@@ -7,13 +7,13 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_player_score_wrapper_classes.hpp"
-#include "UE4_badge_wrapper_thx_unreal_classes.hpp"
-#include "UE4_loot_condition_type_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
+#include "UE4_loot_condition_type_classes.hpp"
+#include "UE4_player_highlight_info_classes.hpp"
 #include "UE4_CinematicPlayerState_classes.hpp"
 #include "UE4_EndOfMatch_GameType_classes.hpp"
-#include "UE4_player_highlight_info_classes.hpp"
+#include "UE4_player_score_wrapper_classes.hpp"
+#include "UE4_badge_wrapper_thx_unreal_classes.hpp"
 
 namespace SDK
 {

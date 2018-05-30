@@ -17,7 +17,7 @@ namespace SDK
 // Function BPI_CombatGameMode.BPI_CombatGameMode_C.GetDangerLevel
 struct UBPI_CombatGameMode_C_GetDangerLevel_Params
 {
-	float                                              Danger;                                                   // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+	float                                              danger;                                                   // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function BPI_CombatGameMode.BPI_CombatGameMode_C.GetCurrentMissionInfo
@@ -63,7 +63,7 @@ struct UBPI_CombatGameMode_C_SetDangerSystemOverride_Params
 // Function BPI_CombatGameMode.BPI_CombatGameMode_C.setDanger
 struct UBPI_CombatGameMode_C_setDanger_Params
 {
-	float                                              Danger;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	float                                              danger;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function BPI_CombatGameMode.BPI_CombatGameMode_C.GetSpawnedBehemoths

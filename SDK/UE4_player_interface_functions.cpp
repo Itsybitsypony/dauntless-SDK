@@ -520,16 +520,16 @@ void Uplayer_interface_C::SetWeaponAbilityDamageRowOverride(const struct FName& 
 }
 
 
-// Function player_interface.player_interface_C.isinlobby
+// Function player_interface.player_interface_C.IsInLobby
 // (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// bool                           isinlobby                      (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+// bool                           IsInLobby                      (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
-void Uplayer_interface_C::isinlobby(bool* isinlobby)
+void Uplayer_interface_C::IsInLobby(bool* IsInLobby)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function player_interface.player_interface_C.isinlobby");
+	static auto fn = UObject::FindObject<UFunction>("Function player_interface.player_interface_C.IsInLobby");
 
-	Uplayer_interface_C_isinlobby_Params params;
+	Uplayer_interface_C_IsInLobby_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -537,8 +537,8 @@ void Uplayer_interface_C::isinlobby(bool* isinlobby)
 
 	fn->FunctionFlags = flags;
 
-	if (isinlobby != nullptr)
-		*isinlobby = params.isinlobby;
+	if (IsInLobby != nullptr)
+		*IsInLobby = params.IsInLobby;
 }
 
 

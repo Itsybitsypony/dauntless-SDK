@@ -7,10 +7,10 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_Engine_classes.hpp"
-#include "UE4_w_play_menu_details_base_bpw_classes.hpp"
-#include "UE4_Archon_classes.hpp"
 #include "UE4_behemoth_metadata_classes.hpp"
+#include "UE4_w_play_menu_details_base_bpw_classes.hpp"
+#include "UE4_Engine_classes.hpp"
+#include "UE4_Archon_classes.hpp"
 #include "UE4_map_metadata_classes.hpp"
 
 namespace SDK

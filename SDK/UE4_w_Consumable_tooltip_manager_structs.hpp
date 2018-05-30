@@ -7,8 +7,8 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_Archon_classes.hpp"
 #include "UE4_w_base_tooltip_manager_classes.hpp"
+#include "UE4_Archon_classes.hpp"
 
 namespace SDK
 {

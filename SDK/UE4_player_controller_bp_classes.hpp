@@ -158,7 +158,7 @@ public:
 	void RemoveMaxDangerWarning();
 	void ReceiveTick(float* DeltaSeconds);
 	void ResetWeaponUI();
-	void EndMission(bool Success, float Duration, int EoM_Timer, float Danger, float BehemothPower, TEnumAsByte<EndOfMatch_GameType> EndofMatchMode, class AArchonBehemoth* Behemoth_01, class AArchonBehemoth* Behemoth_02, const struct Fbadge_wrapper_thx_unreal& BadgeInfoWrapper, const struct Fplayer_highlight_info& MoTHData, float TeamScore, const struct Fplayer_score_wrapper& PlayerScores);
+	void EndMission(bool Success, float Duration, int EoM_Timer, float danger, float BehemothPower, TEnumAsByte<EndOfMatch_GameType> EndofMatchMode, class AArchonBehemoth* Behemoth_01, class AArchonBehemoth* Behemoth_02, const struct Fbadge_wrapper_thx_unreal& BadgeInfoWrapper, const struct Fplayer_highlight_info& MoTHData, float TeamScore, const struct Fplayer_score_wrapper& PlayerScores);
 	void DisplayAllSlayersDown();
 	void DisplayMaxDanger(bool TurnOn_);
 	void OnHuntDepart();

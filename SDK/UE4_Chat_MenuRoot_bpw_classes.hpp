@@ -59,10 +59,10 @@ public:
 	bool Is_Valid_Channel(const class FString& Room);
 	void OnPaint(struct FPaintContext* Context);
 	void Set_Whisper_Reply_Player_Name(struct FBPChatClientMessage* InMessage);
-	void Scroll_To_End_Next_Frame();
+	void Scroll_to_End_Next_Frame();
 	bool Should_Show_Message(struct FBPChatClientMessage* InMessage);
 	void Is_Chat_System_Ready(bool* Ready);
-	void Get_Player_Context(bool* Is_In_City, bool* isinlobby);
+	void Get_Player_Context(bool* Is_In_City, bool* IsInLobby);
 	class FString Get_Party_Chat_Channel();
 	void Construct();
 	void Join_Chat_Rooms();

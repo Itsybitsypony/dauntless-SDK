@@ -12,8 +12,8 @@
 #include "UE4_GameplayAbilities_classes.hpp"
 #include "UE4_elemental_health_data_classes.hpp"
 #include "UE4_elemental_health_init_data_classes.hpp"
-#include "UE4_GameplayTags_classes.hpp"
 #include "UE4_EElementalTypes_classes.hpp"
+#include "UE4_GameplayTags_classes.hpp"
 
 namespace SDK
 {

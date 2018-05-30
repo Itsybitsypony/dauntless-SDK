@@ -8,8 +8,8 @@
 
 #include "UE4_Basic.hpp"
 #include "UE4_Engine_classes.hpp"
-#include "UE4_look_at_component_state_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
+#include "UE4_look_at_component_state_classes.hpp"
 
 namespace SDK
 {

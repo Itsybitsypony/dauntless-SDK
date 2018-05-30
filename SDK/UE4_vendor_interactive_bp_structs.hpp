@@ -10,8 +10,8 @@
 #include "UE4_city_interactive_npc_bp_classes.hpp"
 #include "UE4_Engine_classes.hpp"
 #include "UE4_Archon_classes.hpp"
-#include "UE4_EquipmentVendor_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
+#include "UE4_EquipmentVendor_classes.hpp"
 #include "UE4_npc_ui_struct_classes.hpp"
 
 namespace SDK

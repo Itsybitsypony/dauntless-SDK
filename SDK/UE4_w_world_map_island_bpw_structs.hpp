@@ -7,12 +7,12 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_map_metadata_classes.hpp"
+#include "UE4_GameplayTags_classes.hpp"
 #include "UE4_UMG_classes.hpp"
 #include "UE4_Engine_classes.hpp"
 #include "UE4_Archon_classes.hpp"
-#include "UE4_GameplayTags_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
+#include "UE4_map_metadata_classes.hpp"
 
 namespace SDK
 {

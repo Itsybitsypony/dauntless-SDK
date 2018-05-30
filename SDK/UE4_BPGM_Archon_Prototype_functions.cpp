@@ -124,9 +124,9 @@ void ABPGM_Archon_Prototype_C::GetGameModeType(TEnumAsByte<Egame_mode_type>* Gam
 // Function BPGM_Archon_Prototype.BPGM_Archon_Prototype_C.GetDangerLevel
 // (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// float                          Danger                         (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+// float                          danger                         (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
-void ABPGM_Archon_Prototype_C::GetDangerLevel(float* Danger)
+void ABPGM_Archon_Prototype_C::GetDangerLevel(float* danger)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BPGM_Archon_Prototype.BPGM_Archon_Prototype_C.GetDangerLevel");
 
@@ -138,8 +138,8 @@ void ABPGM_Archon_Prototype_C::GetDangerLevel(float* Danger)
 
 	fn->FunctionFlags = flags;
 
-	if (Danger != nullptr)
-		*Danger = params.Danger;
+	if (danger != nullptr)
+		*danger = params.danger;
 }
 
 
@@ -329,7 +329,7 @@ void ABPGM_Archon_Prototype_C::Get_Remaining_Player_Rescues(int* Remaining_Playe
 // float                          Duration                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // class AArchonBehemoth*         Behemoth                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // int                            CeremonyDuration               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// float                          Danger                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// float                          danger                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // TEnumAsByte<EndOfMatch_GameType> EndofMatchMode                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // class FString                  MatchmakerHuntID               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
 // TArray<class FString>          BehemothRewards                (BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm)
@@ -338,7 +338,7 @@ void ABPGM_Archon_Prototype_C::Get_Remaining_Player_Rescues(int* Remaining_Playe
 // struct Fplayer_highlight_info  MOTH_Data                      (BlueprintVisible, BlueprintReadOnly, Parm)
 // float                          TeamScore                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void ABPGM_Archon_Prototype_C::MatchEndedForPlayer(class AArchonPlayerController* Player, bool Success, float Duration, class AArchonBehemoth* Behemoth, int CeremonyDuration, float Danger, TEnumAsByte<EndOfMatch_GameType> EndofMatchMode, const class FString& MatchmakerHuntID, const struct Fplayer_highlight_info& MOTH_Data, float TeamScore, TArray<class FString>* BehemothRewards, TArray<struct Fbadge_infos>* BadgeInfos, TArray<struct Fplayer_score_info>* PlayerScores)
+void ABPGM_Archon_Prototype_C::MatchEndedForPlayer(class AArchonPlayerController* Player, bool Success, float Duration, class AArchonBehemoth* Behemoth, int CeremonyDuration, float danger, TEnumAsByte<EndOfMatch_GameType> EndofMatchMode, const class FString& MatchmakerHuntID, const struct Fplayer_highlight_info& MOTH_Data, float TeamScore, TArray<class FString>* BehemothRewards, TArray<struct Fbadge_infos>* BadgeInfos, TArray<struct Fplayer_score_info>* PlayerScores)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BPGM_Archon_Prototype.BPGM_Archon_Prototype_C.MatchEndedForPlayer");
 
@@ -348,7 +348,7 @@ void ABPGM_Archon_Prototype_C::MatchEndedForPlayer(class AArchonPlayerController
 	params.Duration = Duration;
 	params.Behemoth = Behemoth;
 	params.CeremonyDuration = CeremonyDuration;
-	params.Danger = Danger;
+	params.danger = danger;
 	params.EndofMatchMode = EndofMatchMode;
 	params.MatchmakerHuntID = MatchmakerHuntID;
 	params.MOTH_Data = MOTH_Data;
@@ -1524,14 +1524,14 @@ void ABPGM_Archon_Prototype_C::K2_OnLogout(class AController** ExitingController
 // Function BPGM_Archon_Prototype.BPGM_Archon_Prototype_C.setDanger
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// float                          Danger                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// float                          danger                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void ABPGM_Archon_Prototype_C::setDanger(float Danger)
+void ABPGM_Archon_Prototype_C::setDanger(float danger)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BPGM_Archon_Prototype.BPGM_Archon_Prototype_C.setDanger");
 
 	ABPGM_Archon_Prototype_C_setDanger_Params params;
-	params.Danger = Danger;
+	params.danger = danger;
 
 	auto flags = fn->FunctionFlags;
 

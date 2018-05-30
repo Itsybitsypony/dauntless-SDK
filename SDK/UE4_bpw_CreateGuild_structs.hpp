@@ -7,9 +7,9 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_ArchonUserWidget_bpw_classes.hpp"
-#include "UE4_Engine_classes.hpp"
 #include "UE4_SlateCore_classes.hpp"
+#include "UE4_Engine_classes.hpp"
+#include "UE4_ArchonUserWidget_bpw_classes.hpp"
 #include "UE4_UMG_classes.hpp"
 #include "UE4_InputCore_classes.hpp"
 

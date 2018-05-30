@@ -7,9 +7,9 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_CoreUObject_classes.hpp"
 #include "UE4_weapon_eqs_aoe_base_bp_classes.hpp"
 #include "UE4_Engine_classes.hpp"
+#include "UE4_CoreUObject_classes.hpp"
 
 namespace SDK
 {

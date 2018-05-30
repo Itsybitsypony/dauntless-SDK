@@ -77,8 +77,8 @@ struct Uw_chat_bpw_C_Is_Pagebreak_Params
 	bool                                               ReturnValue;                                              // (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
 };
 
-// Function w_chat_bpw.w_chat_bpw_C.Scroll To End Next Frame
-struct Uw_chat_bpw_C_Scroll_To_End_Next_Frame_Params
+// Function w_chat_bpw.w_chat_bpw_C.Scroll to End Next Frame
+struct Uw_chat_bpw_C_Scroll_to_End_Next_Frame_Params
 {
 };
 
@@ -200,7 +200,7 @@ struct Uw_chat_bpw_C_Set_Normal_Mode_Label_Params
 struct Uw_chat_bpw_C_Get_Player_Context_Params
 {
 	bool                                               Is_In_City;                                               // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
-	bool                                               isinlobby;                                                // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+	bool                                               IsInLobby;                                                // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function w_chat_bpw.w_chat_bpw_C.Set Whisper Chat Mode

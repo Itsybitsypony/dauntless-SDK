@@ -9,9 +9,9 @@
 #include "UE4_Basic.hpp"
 #include "UE4_UMG_classes.hpp"
 #include "UE4_Engine_classes.hpp"
-#include "UE4_ArmourSet_Description_Info_classes.hpp"
 #include "UE4_Archon_classes.hpp"
 #include "UE4_ProgressionLink_classes.hpp"
+#include "UE4_ArmourSet_Description_Info_classes.hpp"
 
 namespace SDK
 {

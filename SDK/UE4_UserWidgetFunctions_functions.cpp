@@ -1033,9 +1033,9 @@ TEnumAsByte<EquipmentVendor> UUserWidgetFunctions_C::STATIC_Get_Vendor_Item_Type
 // Parameters:
 // class FString                  ItemID                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
 // class UObject*                 __WorldContext                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// EArmorType                     Armour_Type                    (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+// EArmorType                     armour_type                    (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
-void UUserWidgetFunctions_C::STATIC_Get_Armour_Type(const class FString& ItemID, class UObject* __WorldContext, EArmorType* Armour_Type)
+void UUserWidgetFunctions_C::STATIC_Get_Armour_Type(const class FString& ItemID, class UObject* __WorldContext, EArmorType* armour_type)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function UserWidgetFunctions.UserWidgetFunctions_C.Get Armour Type");
 
@@ -1049,8 +1049,8 @@ void UUserWidgetFunctions_C::STATIC_Get_Armour_Type(const class FString& ItemID,
 
 	fn->FunctionFlags = flags;
 
-	if (Armour_Type != nullptr)
-		*Armour_Type = params.Armour_Type;
+	if (armour_type != nullptr)
+		*armour_type = params.armour_type;
 }
 
 

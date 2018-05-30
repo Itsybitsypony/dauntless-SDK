@@ -7,8 +7,8 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_game_mode_type_classes.hpp"
 #include "UE4_Archon_classes.hpp"
+#include "UE4_game_mode_type_classes.hpp"
 #include "UE4_Engine_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
 

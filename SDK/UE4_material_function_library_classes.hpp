@@ -29,13 +29,13 @@ public:
 
 	void STATIC_ApplyMaterialsToMeshesInOrder(class UObject* __WorldContext, TArray<class USkeletalMeshComponent*>* Meshes, TArray<class UMaterialInterface*>* Materials);
 	void STATIC_ReplaceAndReturnAllMeshMaterials(class AActor* Actor, class UMaterialInterface* NewMaterial, bool Armour, bool Weapon, bool Body, class UObject* __WorldContext, TArray<class USkeletalMeshComponent*>* MeshComponents, TArray<class UMaterialInterface*>* Materials);
-	void STATIC_GetArmourTypeFromSkeletalMesh(class USkeletalMesh* Skeletal_Mesh, class UObject* __WorldContext, EArmorType* Armour_Type);
+	void STATIC_GetArmourTypeFromSkeletalMesh(class USkeletalMesh* Skeletal_Mesh, class UObject* __WorldContext, EArmorType* armour_type);
 	void STATIC_HideSkinUnderArmourBase(class UTexture2D* CutMask, EArmorType ArmourType, class UObject* __WorldContext, TArray<class UMaterialInstanceDynamic*>* SkinDynamicMats);
 	void STATIC_MorphableBeard(class USkinnedMeshComponent* beard_component, class UObject* __WorldContext, bool* is_morphable);
 	void STATIC_QueryBeardVisibleWithHelm(const class FString& Helm_Display_Name, class UObject* __WorldContext, bool* IsVisible, bool* hasChinstrap, class FString* Passthrough_Name);
 	void STATIC_ResetBeardHelmMorphs(class USkeletalMeshComponent* skel_mesh_comp, class UObject* __WorldContext);
 	void STATIC_GetArmourCutMaskFromItemID(const class FString& ItemID, class UObject* __WorldContext, TAssetPtr<class UTexture2D>* cutmaskID);
-	void STATIC_SetHelmetVisibility(EArmorType Armour_Type, const TScriptInterface<class Uplayer_interface_C>& player_interface, class UTexture2D* CutMask, class Aarmour_part_base_bp_C* Armour_Part, bool isPaperDoll, class UObject* __WorldContext);
+	void STATIC_SetHelmetVisibility(EArmorType armour_type, const TScriptInterface<class Uplayer_interface_C>& player_interface, class UTexture2D* CutMask, class Aarmour_part_base_bp_C* Armour_Part, bool isPaperDoll, class UObject* __WorldContext);
 	void STATIC_GetArmourCutMaskFromSkeletalMesh(class USkeletalMesh* SkeletalMesh, class UObject* __WorldContext, TAssetPtr<class UTexture2D>* CutMaskAssetID);
 };
 

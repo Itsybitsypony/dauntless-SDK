@@ -14,6 +14,8 @@ namespace SDK
 
 std::string UObject::GetName() const
 {
+	if (!SDK::FName::GetGlobalNames().IsValidIndex(Name.ComparisonIndex))
+		return "";
 	std::string name(Name.GetName());
 	if (Name.Number > 0)
 	{
@@ -33,11 +35,14 @@ std::string UObject::GetFullName() const
 {
 	std::string name;
 
+	int i = 0;
 	if (Class != nullptr)
 	{
 		std::string temp;
 		for (auto p = Outer; p; p = p->Outer)
 		{
+			if (i++ > 1000)
+				break;
 			temp = p->GetName() + "." + temp;
 		}
 
@@ -52,8 +57,11 @@ std::string UObject::GetFullName() const
 
 bool UObject::IsA(UClass* cmp) const
 {
+	int i = 0;
 	for (auto super = Class; super; super = static_cast<UClass*>(super->SuperField))
 	{
+		if (i++ > 3000)
+			break;
 		if (super == cmp)
 		{
 			return true;

@@ -154,7 +154,7 @@ struct Uw_LoadoutSec_Armour_Button_C_Lookup_Armour_Power_Params
 // Function w_LoadoutSec_Armour_Button.w_LoadoutSec_Armour_Button_C.Get Equipped Loadout Armour Valueby Type
 struct Uw_LoadoutSec_Armour_Button_C_Get_Equipped_Loadout_Armour_Valueby_Type_Params
 {
-	EArmorType                                         Armour_Type;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	EArmorType                                         armour_type;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	float                                              ReturnValue;                                              // (Parm, OutParm, ZeroConstructor, ReturnParm, IsPlainOldData)
 };
 

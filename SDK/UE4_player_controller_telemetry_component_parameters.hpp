@@ -27,8 +27,8 @@ struct Uplayer_controller_telemetry_component_C_On_Set_Dye_Colour_Params
 	struct FDyeVariant                                 NewDyeConfiguration;                                      // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm)
 };
 
-// Function player_controller_telemetry_component.player_controller_telemetry_component_C.MatchmakingStarted
-struct Uplayer_controller_telemetry_component_C_MatchmakingStarted_Params
+// Function player_controller_telemetry_component.player_controller_telemetry_component_C.MatchMakingStarted
+struct Uplayer_controller_telemetry_component_C_MatchMakingStarted_Params
 {
 };
 

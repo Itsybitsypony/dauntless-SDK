@@ -561,14 +561,14 @@ void Ustyle_screen_bpw_C::Paperdoll_PlayArrival__DelegateSignature(const class F
 // Function style_screen_bpw.style_screen_bpw_C.UpdatePlayerTitleOnOtherMenus__DelegateSignature
 // (Public, Delegate, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// class FString                  PlayerTitle                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
+// class FString                  PlayerTItle                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
 
-void Ustyle_screen_bpw_C::UpdatePlayerTitleOnOtherMenus__DelegateSignature(const class FString& PlayerTitle)
+void Ustyle_screen_bpw_C::UpdatePlayerTitleOnOtherMenus__DelegateSignature(const class FString& PlayerTItle)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function style_screen_bpw.style_screen_bpw_C.UpdatePlayerTitleOnOtherMenus__DelegateSignature");
 
 	Ustyle_screen_bpw_C_UpdatePlayerTitleOnOtherMenus__DelegateSignature_Params params;
-	params.PlayerTitle = PlayerTitle;
+	params.PlayerTItle = PlayerTItle;
 
 	auto flags = fn->FunctionFlags;
 

@@ -7,11 +7,11 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_inventorypanel_focus_strategy_classes.hpp"
 #include "UE4_UMG_classes.hpp"
-#include "UE4_Engine_classes.hpp"
 #include "UE4_SlateCore_classes.hpp"
+#include "UE4_Engine_classes.hpp"
 #include "UE4_sort_type_classes.hpp"
+#include "UE4_inventorypanel_focus_strategy_classes.hpp"
 #include "UE4_sort_direction_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
 

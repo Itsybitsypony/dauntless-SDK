@@ -9,8 +9,8 @@
 #include "UE4_Basic.hpp"
 #include "UE4_object_lookup_table_struct_classes.hpp"
 #include "UE4_enum_lookup_table_classes.hpp"
-#include "UE4_stagger_type_classes.hpp"
 #include "UE4_stagger_lookup_table_entry_classes.hpp"
+#include "UE4_stagger_type_classes.hpp"
 
 namespace SDK
 {

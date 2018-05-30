@@ -7,9 +7,9 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_Enum_CompareOperators_classes.hpp"
 #include "UE4_AIModule_classes.hpp"
 #include "UE4_GameplayAbilities_classes.hpp"
+#include "UE4_Enum_CompareOperators_classes.hpp"
 
 namespace SDK
 {

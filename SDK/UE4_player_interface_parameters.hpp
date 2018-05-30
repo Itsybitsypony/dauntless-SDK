@@ -159,10 +159,10 @@ struct Uplayer_interface_C_SetWeaponAbilityDamageRowOverride_Params
 	struct FName                                       WeaponAbilityDamageRowOverride;                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-// Function player_interface.player_interface_C.isinlobby
-struct Uplayer_interface_C_isinlobby_Params
+// Function player_interface.player_interface_C.IsInLobby
+struct Uplayer_interface_C_IsInLobby_Params
 {
-	bool                                               isinlobby;                                                // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
+	bool                                               IsInLobby;                                                // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function player_interface.player_interface_C.IsInCity

@@ -7,12 +7,12 @@
 #endif
 
 #include "UE4_Basic.hpp"
+#include "UE4_monster_part_info_struct_classes.hpp"
 #include "UE4_UMG_classes.hpp"
-#include "UE4_Engine_classes.hpp"
 #include "UE4_SlateCore_classes.hpp"
+#include "UE4_Engine_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
 #include "UE4_ai_action_info_debug_struct_classes.hpp"
-#include "UE4_monster_part_info_struct_classes.hpp"
 
 namespace SDK
 {

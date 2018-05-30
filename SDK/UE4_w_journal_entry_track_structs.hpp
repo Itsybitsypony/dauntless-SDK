@@ -8,10 +8,10 @@
 
 #include "UE4_Basic.hpp"
 #include "UE4_w_journal_entry_base_classes.hpp"
-#include "UE4_progression_rank_table_row_classes.hpp"
+#include "UE4_SlateCore_classes.hpp"
 #include "UE4_Engine_classes.hpp"
 #include "UE4_Archon_classes.hpp"
-#include "UE4_SlateCore_classes.hpp"
+#include "UE4_progression_rank_table_row_classes.hpp"
 #include "UE4_UMG_classes.hpp"
 
 namespace SDK

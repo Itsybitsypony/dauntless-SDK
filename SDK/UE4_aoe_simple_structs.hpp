@@ -9,8 +9,8 @@
 #include "UE4_Basic.hpp"
 #include "UE4_aoe_base_bp_classes.hpp"
 #include "UE4_Engine_classes.hpp"
-#include "UE4_archon_impulse_classes.hpp"
 #include "UE4_CoreUObject_classes.hpp"
+#include "UE4_archon_impulse_classes.hpp"
 #include "UE4_aoe_damage_distribution_classes.hpp"
 
 namespace SDK

@@ -29,7 +29,7 @@ struct Upickup_notification_item_bpw_C_GetShadowColor_Params
 // Function pickup_notification_item_bpw.pickup_notification_item_bpw_C.GetTransitionColor
 struct Upickup_notification_item_bpw_C_GetTransitionColor_Params
 {
-	struct FLinearColor                                Base_Color;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
+	struct FLinearColor                                BASE_COLOR;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, IsPlainOldData)
 	struct FLinearColor                                TransitionColor;                                          // (Parm, OutParm, IsPlainOldData)
 };
 

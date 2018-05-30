@@ -7,12 +7,12 @@
 #endif
 
 #include "UE4_Basic.hpp"
-#include "UE4_welcome_image_asset_classes.hpp"
-#include "UE4_Archon_classes.hpp"
-#include "UE4_Engine_classes.hpp"
-#include "UE4_SlateCore_classes.hpp"
-#include "UE4_UMG_classes.hpp"
 #include "UE4_InputCore_classes.hpp"
+#include "UE4_Archon_classes.hpp"
+#include "UE4_SlateCore_classes.hpp"
+#include "UE4_Engine_classes.hpp"
+#include "UE4_UMG_classes.hpp"
+#include "UE4_welcome_image_asset_classes.hpp"
 
 namespace SDK
 {

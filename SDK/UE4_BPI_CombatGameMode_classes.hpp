@@ -27,7 +27,7 @@ public:
 	}
 
 
-	void GetDangerLevel(float* Danger);
+	void GetDangerLevel(float* danger);
 	void GetCurrentMissionInfo(struct FArchonLobbyMissionInfo* MissionInfo);
 	void PauseMissionTimer();
 	void DebugGetRawExpectedPlayerCountVariable(int* RawExpectedPlayerCount);
@@ -35,7 +35,7 @@ public:
 	void SetMissionTimeRemaining(float MissionTimeRemaining);
 	void PlayIntroCinematic();
 	void SetDangerSystemOverride(bool TurnOn_);
-	void setDanger(float Danger);
+	void setDanger(float danger);
 	void GetSpawnedBehemoths(TArray<class AArchonBehemoth*>* Behemoths);
 	void RegisterStartOfCombat();
 	void BehemothRequested(const struct FName& Behemoth);
